@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+}
+
+#navbar1 {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar {
+	background-image: linear-gradient(to right, #a517ba,#5f1782);
+	padding: 0;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color: #ggg;
+	font-weight: 700;
+	float: right;
+	text-align: left;
+}
+
+.fa-anchor {
+	color: #fff;
+	font-size: 25px;
+}
+
+.navbar-toggler {
+	outline: none;
+}
+
+/*------banner section-----*/
+
+#bruce {
+	background-image: linear-gradient(to right,#fff, #008000); 	
+	padding-top: 5%;
+}
+
+.title {
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 100px;
+}
+
+.play-btn {
+	width: 500px;
+	margin: 20px;
+}
+
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 700px;
+}
+
+.self {
+	height: 400px;
+	width: 500px;
+	float: right;
+}
+
+/*------places section-----*/
+
+#places {
+	background-image: linear-gradient(to right, red, 
+      #f06d06, 
+      rgb(255, 255, 0), 
+      green);
+	color: #fff;	
+	padding-top: 5%;
+}
+
+/*---------- Visited places--------*/
+
+#places {
+	padding: 80px 0;
+}
+
+.rotate180 {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 700px; 
+}
+
+.panorama {
+	width: 100%;
+	height: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+/*---------wishlist----*/
+
+.wishlist {
+	font-size: 20px;
+	background: #f8f9fa;
+	font-weight: 700;
+	margin: 20px;
+}
+
+.wishlist h1 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.wishlist p {
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+/*------------social media----------*/
+#social {
+	background: #FF6347;
+	padding-top: 20px;
+}
+
+#social p {
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.social-icons img {
+	width: 100px;
+	margin: 0 20px;
+}
+
+.social-icons a:hover img {
+	transform: translateY(-20px);
+}
+
+#footer p {
+	font-size: 35px;
+	font-weight: 700;
+	color: #fff;
+}
